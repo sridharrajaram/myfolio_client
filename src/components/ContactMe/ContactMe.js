@@ -3,7 +3,7 @@ import "./ContactMe.css";
 import axios from "axios";
 
 //const uri = "http://localhost:5000/send_mail";
-const uri = "https://sridharrajaram-portfolio.herokuapp.com/send_mail";
+const uri = "https://sridharrajaram-myfolio-server.herokuapp.com/send_mail";
 
 
 
