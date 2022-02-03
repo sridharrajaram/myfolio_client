@@ -1,0 +1,10 @@
+.root {
+    max-width: 200;
+  }
+  .media {
+    height: 80%;
+    width: 100%;
+  }
+  .pos {
+    margin-bottom: 12;
+  }

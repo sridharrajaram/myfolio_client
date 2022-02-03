@@ -1,0 +1,25 @@
+.bordercurve_container {
+  height: 17.8%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+.bordercurve_parent {
+  width: 100%;
+  height:100%;
+  max-width: 1920px;
+}
+
+.bordercurve_container img {
+  max-width: 100%;
+  height: 130 px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .bordercurve_parent {
+    display: flex;
+    align-items: flex-end;
+  }
+}

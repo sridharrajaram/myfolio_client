@@ -1,0 +1,21 @@
+.follow {
+    background-image: linear-gradient(135deg, rgb(35, 83, 145), rgb(35, 83, 145));
+    -webkit-clip-path: polygon(0 10vh,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 10vh,100% 0,100% 100%,0 100%);
+    padding: 3rem 0 0rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 810px) {
+    .follow {
+        -webkit-clip-path: polygon(0 5vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 5vh,100% 0,100% 100%,0 100%);
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .follow {
+        -webkit-clip-path: polygon(0 5vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 5vh,100% 0,100% 100%,0 100%);
+    }
+  }
